@@ -861,4 +861,18 @@ Dette vil bli lastet ned lokalt på PC-en din, velg en filplassering dere vil hu
 4. Velg alle bildene og sett "label" til å være "elsys", husk å kun bruke små bokstaver!
 5. Når alle bildene har fått en etikett, gå til "Train" og vent til denne har nådd 100%.
 6. Dere kan nå eksportere og overføre mappen til Raspberry Pi-en, akkurat som dere gjorde forrige gang.
+7. 
+
+#### Kuleste bil??? 
+Dere skal nå konkurere for å få en av følgende premier:
+ - Raskeste bil
+ - Smarteste bil
+ - Mest kreative bil
+ - Kuleste ekstrafunkjon
+
+Raskeste og smarteste bil premiene går ut på hvem som kan kjøre gjennom banen raskest og gjennskjenne flest objekter med lobe. Premiene for mest kreative bil går ut på å designe bilen deres best mulig, bruk alt dere får tak i - papp, maling, pynt osv.
+
+Kuleste ekstrafunksjon går ut på å bli skjent med kofferten deres. Inne der skal det ligge uike komponenter som ekstra led lys, servomottorer, høytalere og sensorer. Bruk noe av det til å komme opp med en kul funksjon til bilen, kanskje det passer temaet? Hvis dere lurer på hva noe er, eller hgvorddan det brukes så er det bare å spørre hverandre, søke eller spørre studentassistentene deres. 
+
+#Vi gleder oss til å se hva dere får til og være med på den bratte læringskurven!
 
