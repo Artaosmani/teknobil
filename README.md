@@ -4,7 +4,7 @@ I denne teknostarten skal dere, i en gruppe, lage en fjernstyrt bil. Dere skal f
 
 Dere bør dele dere opp og jobbe på hver deres del. Dere har god tid på oppgaven, så det går fint å jobbe i par og ta seg tid til å prøve å forstå eller finne ut mer om noe dersom dere synes det er interessant. En viktig del av teknostart er å samarbeide godt og fordele arbeidsoppgaver. Vi foreslår at dere fordeler dere på disse hovedoppgavene:
 
-1.	Den som ønsker en utfordring, kan jobbe med Raspberry Pien. Her er det viktig å holde tungen rett i munnen og følge oppskriften nøye for at ting skal fungere. Får dere problemer her, ta kontakt med en student assistent. 
+1.	Den som ønsker en utfordring, kan jobbe med Raspberry Pien. Her er det  å holde tungen rett i munnen og følge oppskriften nøye for at ting skal fungere. Får dere problemer her, ta kontakt med en student assistent. 
 2.	En annen oppgave er å sette opp Arduinoen med motordriver, og laste opp den ferdigskrevne koden.
 3.	Til slutt kan dere alle samarbeide om å koble alt sammen og få bilen til å fungere. Vent på en studass før dere får batteriet og får startet bilen. 
 4.	Når dere har bygget ferdig bilen kan dere gå videre med utvidelsesoppgavene og begynne å skreddersy den estetisk slik dere ønsker.
@@ -207,7 +207,7 @@ For å koble sammen Raspberry Pi og Arduino Uno, må dere merke deg at nummeret 
           
 | Arduino | Raspberry Pi |
 |---------|--------------|
-| A3      | GPIO 21      |
+| A3      | GPIO 6       |
 | A2      | GPIO 13      |
 | A1      | GPIO 19      |
 | A0      | GPIO 26      |
@@ -278,7 +278,7 @@ Her er den tilsvarende tilkoblingen:
 <br clear="all" />
 
 
-**Viktig:** En motstand er nødvendig for å begrense strømmen som går gjennom LEDene, og dermed hindre dem i å brenne ut. Alltid koble motstanden til katodesiden (den kortere benet) av LEDen.
+**Viktig:** En motstand er nødvendig for å begrense strømmen som går gjennom LEDene, og dermed hindre dem i å brenne ut. Alltid koble motstanden til katodesiden (den kortere benet) av LEDen. Hvis du lurer på noe så er det bare å spørre en studentassitent, men dersom dioden er koblet opp feil så er det ikke verre enn at den brenner ut.
 
 
 <p align="center">
@@ -301,7 +301,7 @@ Batterikontaktoren til spenningsregulatoren kobles opp som vist under. Pass på 
 
 Når alt er koblet opp, kan dere få bilen deres kontrollert av en læreassistent. Hvis alt er korrekt, kan dere få utlevert et batteri som skal skyves inn mellom motorene før dere fester bakplaten.
 
-**NB: Her er det to viktige ting å være oppmerksom på. Pass på at skruene som holder kretskortene på plass ikke er skrudd så stramt at batteriet tar skade når det skyves inn i bilen. Det er også viktig å være forsiktig så man ikke skrur dem inn i batteriet senere, ellers kan batteriet begynne å brenne. Sørg for at bryteren er satt til 5 V på spenningsregulatoren før dere skrur den på.**
+**NB: Her er det to viktige ting å være oppmerksom på!. Pass på at skruene som holder kretskortene på plass ikke er skrudd så stramt at batteriet tar skade når det skyves inn i bilen. Det er også viktig å være forsiktig så man ikke skrur dem inn i batteriet senere, ellers kan batteriet begynne å brenne. Sørg for at bryteren er satt til 5 V på spenningsregulatoren før dere skrur den på.**
 
 <p align="center">
   <img src="Media\teknobil\11.png
@@ -612,6 +612,7 @@ Om dere ikke får koblet til så se på feilsøkingstipsene nedenfor:
 * Prøv å bruke IPv4-addressen til PIen istedenfor ```<hostname>.local```. Den finner dere vanligvis i nettverksdelingsinnstillingene på mobilen og har på formatet ```<xxx.xxx.xxx.xxx>```, hvor x er tall. Kommandoen blir da f.eks. ```ssh pi@192.168.195.162```.
 * Det kan ta litt tid før Pi-en starter, så om den ikke finner Pi-en med en gang, vent noen minutter og prøv igjen. Dere kan også trykke piltast opp på tastaturet for å bruke den siste kommandoen dere brukte.
 * Dobbeltsjekk også at det delte nettet opererer på 2.4GHz.
+* Hvis dere kobler dere til et annet internett og så tilbake kan det hende at det skaper problemer, prøv da å starte prossesen på nytt men skriv inn et annet brukernavn enn  det dere hadde fra før av. Altså ikke elsys14 men elsys100 eln, bare vær sikker på at inegn andre har same brukernavn.
 
 Når dere skriver inn passordet, vil dere merke at det ikke kommer opp noe "***". Dette er normalt, bare skriv passordet som vanlig.
 
